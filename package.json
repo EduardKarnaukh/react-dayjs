@@ -1,6 +1,6 @@
 {
   "name": "react-dayjs",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "React component for the dayjs date library.",
   "main": "dist/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devshawn/react-dayjs.git"
+    "url": "git+https://github.com/EduardKarnaukh/react-dayjs.git"
   },
   "keywords": [
     "dayjs",
@@ -42,7 +42,7 @@
     "testURL": "http://localhost/"
   },
   "peerDependencies": {
-    "dayjs": "^1.5.16",
+    "dayjs": "^1.11.0",
     "react": "^15.6.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
@@ -53,21 +53,21 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
     "@babel/plugin-transform-react-jsx": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
-    "@testing-library/react": "^11.1.0",
-    "@types/react-dom": "^16.9.8",
+    "@testing-library/react": "^13.3.0",
+    "@types/react-dom": "^18.0.0",
     "babel-loader": "^8.1.0",
     "dayjs": "^1.10.3",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.4",
-    "jest": "^24.9.0",
+    "jest": "^28.1.1",
     "path": "^0.12.7",
     "react": "^18.0.1",
     "react-dom": "^18.0.1",
-    "rimraf": "^2.7.1",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "rimraf": "^3.0.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
   }
 }
