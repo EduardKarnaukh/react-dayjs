@@ -4,7 +4,7 @@
   "description": "React component for the dayjs date library.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm run clean && webpack -p",
+    "build": "npm run clean && webpack",
     "clean": "rimraf ./dist/index.js",
     "lint": "eslint source/*",
     "serve": "webpack -p --watch",
