@@ -2,7 +2,7 @@
   "name": "react-dayjs",
   "version": "0.3.3",
   "description": "React component for the dayjs date library.",
-  "main": "dist/index.js",
+  "main": "source/index.js",
   "scripts": {
     "build": "npm run clean && webpack",
     "clean": "rimraf ./dist/index.js",
